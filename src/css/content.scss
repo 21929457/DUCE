@@ -1,0 +1,24 @@
+
+.main {
+    display: flex;
+      justify-content: center;
+      .wrapper {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+      }
+  
+      .el {
+        position: absolute;
+        width: 2px;
+        height: 20vh;
+        margin-top: -10vh;
+        transform-origin: 50% 100%;
+        opacity: .4;
+        z-index: -1;
+      }
+      h1 {
+        position: absolute;
+        right: calc(50% - 140px);
+      }
+}
