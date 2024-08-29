@@ -44,13 +44,21 @@ function Main() {
     };
     for (let i = 0; i < numberOfEls; i++) createEl(i);
 
+    $(".wrapper h1").fadeIn(1000);
+    $(".wrapper .banner-btn-wrap").fadeIn(1000);
+
   });
   return (
     <div className="container">
       <div className="inner">
         <div className="main">
           <div className="wrapper">
-            <h1>21세기 정보화사회를<br /><span>선도하라</span></h1>
+            <div className="wrapper-inner">
+              <h1>21세기 정보화 사회를<br /><span>선도하라!</span></h1>
+              <a href="#" className="banner-btn-wrap">
+                <div className="banner-btn">전공안내 바로가기</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
