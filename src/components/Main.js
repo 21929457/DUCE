@@ -1,13 +1,13 @@
 import '../css/layout.scss';
-import Section from './Section';
+import Major from './Major';
 import Banner from './Banner';
 
 function Main() {
   return (
     <div className="container">
+      <Banner/>
       <div className="inner">
-        <Banner/>
-        <Section/>
+        <Major/>
       </div>
     </div>
   );
