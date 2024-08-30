@@ -7,8 +7,7 @@
 
 # 사용 라이브러리
 ### 개발 - React / JQuery / SCSS
-### 효율성 - Fullpage.js / Anime.js / Swiper
-#### fullpage.js : 웹 사이트 구조 
+### 효율성 - Anime.js / Swiper
 #### Anime.js : 이펙트
 #### Swiper : 배너
 
@@ -19,6 +18,3 @@
 ### - 트랜드에 맞는 UI/UX 구조
 ### - React에서 가능한 JS 최적화
 ### - 불필요한 요소 제거
-
-# 시안
-### -준비중입니다.-
