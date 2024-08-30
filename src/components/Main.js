@@ -54,6 +54,7 @@ function Main() {
         <div className="main">
           <div className="wrapper">
             <div className="wrapper-inner">
+              <p>2024년도 정보통신대학 컴퓨터공학과</p>
               <h1>21세기 정보화 사회를<br /><span>선도하라!</span></h1>
               <a href="#" className="banner-btn-wrap">
                 <div className="banner-btn">전공안내 바로가기</div>
@@ -61,6 +62,7 @@ function Main() {
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   );
