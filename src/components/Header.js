@@ -1,6 +1,6 @@
 import '../css/userTop.scss'
 import $ from 'jquery'
-import logoimg from '../images/logo.png'
+import logoimg from '../images/user/logo.png'
 
 function Header() {
     $(function () {
