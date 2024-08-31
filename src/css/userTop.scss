@@ -41,10 +41,37 @@ header {
             gap: 60px;
 
             a {
+                display: inline-block;
+                position: relative;
                 font-size: 18px;
                 font-weight: 600;
                 color: #FFF;
                 transition: .3s;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 0%;
+                    height: 3px;
+                    border-radius: 3px;
+                    background-color: #FFF;
+                    bottom: -5px;
+                    left: 0;
+                    transition: .3s;
+                }
+
+                &:hover {
+                    &::after {
+                        transition: .3s;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .active {
+                &::after {
+                    background-color: #000;
+                }
             }
         }
     }

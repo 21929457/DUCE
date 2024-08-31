@@ -1,8 +1,10 @@
 import '../css/Major.scss';
+import $ from 'jquery';
 
 function Major() {
+  $(function () {
 
-
+  });
   return (
     <section>
       <div className="tit-wrap">

@@ -1,6 +1,6 @@
-import '../css/userTop.scss'
-import $ from 'jquery'
-import logoimg from '../images/user/logo.png'
+import '../css/userTop.scss';
+import $ from 'jquery';
+import logoimg from '../images/user/logo.png';
 
 function Header() {
     $(function () {
@@ -11,16 +11,18 @@ function Header() {
             let nav_a = $("nav a");
 
             if (windowY > 0) {
-                header.css("backgroundColor", "#FFF");
-                header.css("height", "100px");
+                header.css("background-color", "#FFF");
+                header.css("height", "97px");
                 logo_a.css("color", "#000");
                 nav_a.css("color", "#000");
+                nav_a.addClass("active");
             }
             else {
-                header.css("backgroundColor", "transparent");
+                header.css("background-color", "transparent");
                 header.css("height", "90px");
                 logo_a.css("color", "#FFF");
                 nav_a.css("color", "#FFF");
+                nav_a.removeClass("active");
             }
         });
     });
