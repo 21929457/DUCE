@@ -5,9 +5,10 @@ import Banner from './Banner';
 function Main() {
   return (
     <div className="container">
-      <Banner/>
+      <Banner />
       <div className="inner">
-        <Major/>
+        <Major />
+
       </div>
     </div>
   );

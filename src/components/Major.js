@@ -1,4 +1,4 @@
-import '../css/Major.scss';
+import '../css/major.scss';
 import $ from 'jquery';
 
 function Major() {
@@ -17,7 +17,7 @@ function Major() {
       <div className="major-inner">
         <div className="major web">
           <p className="major-tit">웹 개발자</p>
-          <p className="major-disc">웹 개발자는 웹 디자인 및 유지관리하는 기술을 학습합니다. HTML / CSS / JS 언어를 학습하고 React / Vue 등 JS 라이브러리를 다룹니다.</p>
+          <p className="major-disc">웹 개발자는 웹 디자인 및 개발, 유지보수하는 기술을 다루는 개발자입니다. 웹 사이트를 제작하고 웹이 구동하는 서버를 관리합니다.</p>
         </div>
         <div className="major software">
           <p className="major-tit">소프트웨어 개발자</p>
@@ -29,7 +29,7 @@ function Major() {
         </div>
         <div className="major game">
           <p className="major-tit">게임 개발자</p>
-          <p className="major-disc">컴퓨터 혹은 비디오 게임을 제작하는 개발자를 통칭하는 말입니다. 게임 프로그래머는 기획, 알고리즘, 그래픽 자료, 사운드 등을 하나의 창작물로 결합시켜 게임 프로그램을 제작하는 전문가입니다.</p>
+          <p className="major-disc">게임 개발자 는 기획, 알고리즘, 그래픽 자료, 사운드 등을 하나의 창작물로 결합시켜 게임 프로그램을 제작하는 전문가입니다.</p>
         </div>
         <div className="major embedded">
           <p className="major-tit">임베디드 개발자</p>

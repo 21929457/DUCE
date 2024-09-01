@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFF;
 
     .slide-btn-wrap {
         display: flex;
@@ -32,8 +34,7 @@
 
 .major-inner {
     display: flex;
-    margin-top: 40px;
-    margin-left: 60px;
+    margin-top: 20px;
     padding: 20px;
     gap: 60px;
     flex-wrap: nowrap;
@@ -43,8 +44,8 @@
         display: flex;
         position: relative;
         flex-direction: column;
-        min-width: 280px;
-        height: 280px;
+        min-width: 240px;
+        height: 240px;
         box-shadow: 0px 0px 10px 0px #FFF;
         border-radius: 20px;
         padding: 20px;
