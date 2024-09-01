@@ -6,9 +6,9 @@ function Major() {
 
   });
   return (
-    <section>
+    <section className="first">
       <div className="tit-wrap">
-        <p className='section-tit'>전공분야</p>
+        <p className='section-tit'>취업분야</p>
         <div className="slide-btn-wrap">
           <i className="slide-btn slide-prev"></i>
           <i className="slide-btn slide-next"></i>

@@ -8,7 +8,6 @@ function Main() {
       <Banner />
       <div className="inner">
         <Major />
-
       </div>
     </div>
   );
