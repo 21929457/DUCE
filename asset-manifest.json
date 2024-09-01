@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/DUGraduate/static/css/main.24123b47.css",
-    "main.js": "/DUGraduate/static/js/main.4a41bd2d.js",
+    "main.css": "/DUGraduate/static/css/main.af15e27b.css",
+    "main.js": "/DUGraduate/static/js/main.c85bc169.js",
     "static/js/453.22af7fa9.chunk.js": "/DUGraduate/static/js/453.22af7fa9.chunk.js",
+    "static/media/information_secure.png": "/DUGraduate/static/media/information_secure.f28d4503663dfdc369be.png",
+    "static/media/AI_developer.jpg": "/DUGraduate/static/media/AI_developer.8a13221040b2387eee56.jpg",
+    "static/media/computer_manager.jpg": "/DUGraduate/static/media/computer_manager.106425b1e526583b065e.jpg",
+    "static/media/embedded_developerjpg.jpg": "/DUGraduate/static/media/embedded_developerjpg.6294b681af24a23fba1d.jpg",
+    "static/media/game_developer.jpg": "/DUGraduate/static/media/game_developer.47450c6d10b4d87577b0.jpg",
+    "static/media/ico_prev_btn.png": "/DUGraduate/static/media/ico_prev_btn.f1f27205a5fde59bff91.png",
+    "static/media/ico_next_btn.png": "/DUGraduate/static/media/ico_next_btn.ed2fd4092c27f4220d8c.png",
+    "static/media/software_developer.jpg": "/DUGraduate/static/media/software_developer.6762da3163e85e6cc0fc.jpg",
     "static/media/logo.png": "/DUGraduate/static/media/logo.71e8f623acbd87b936e7.png",
     "index.html": "/DUGraduate/index.html",
-    "main.24123b47.css.map": "/DUGraduate/static/css/main.24123b47.css.map",
-    "main.4a41bd2d.js.map": "/DUGraduate/static/js/main.4a41bd2d.js.map",
+    "main.af15e27b.css.map": "/DUGraduate/static/css/main.af15e27b.css.map",
+    "main.c85bc169.js.map": "/DUGraduate/static/js/main.c85bc169.js.map",
     "453.22af7fa9.chunk.js.map": "/DUGraduate/static/js/453.22af7fa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24123b47.css",
-    "static/js/main.4a41bd2d.js"
+    "static/css/main.af15e27b.css",
+    "static/js/main.c85bc169.js"
   ]
 }
