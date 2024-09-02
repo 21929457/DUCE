@@ -23,16 +23,26 @@ p {
 }
 
 section {
-    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    .section-tit-wrap {
+        text-align: center;
+        color: #FFF;
+        .section-tit {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 62px;
+        }
+        .section-disc {
+            font-size: 20px;
+            font-weight: 500px;
+            line-height: 32px;
+        }
+    }
 }
 
 section.first {
     margin-top: 220px;
-}
-
-section .section-tit {
-    font-size: 52px;
-    font-weight: 700;
-    color: #FFF;
-    line-height: 62px;
 }

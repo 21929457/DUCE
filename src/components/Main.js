@@ -1,6 +1,7 @@
 import '../css/layout.scss';
-import Major from './Major';
 import Banner from './Banner';
+import Major from './Major';
+import Venture from './Venture';
 
 function Main() {
   return (
@@ -8,6 +9,7 @@ function Main() {
       <Banner />
       <div className="inner">
         <Major />
+        <Venture />
       </div>
     </div>
   );
