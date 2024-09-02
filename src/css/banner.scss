@@ -18,7 +18,6 @@
 
       p {
         display: none;
-        color: #FFF;
         text-align: end;
         font-size: 28px;
       }
@@ -27,7 +26,6 @@
         display: none;
         font-size: 64px;
         line-height: 84px;
-        color: #FFF;
         text-align: end;
         margin-top: 0;
 
@@ -51,11 +49,10 @@
           height: 70px;
           border-radius: 10px;
           border: 1px solid #FFF;
-          color: #FFF;
           font-weight: 700;
           font-size: 18px;
           transition: .3s;
-
+          color: #FFF;
           &:hover {
             background-color: #FFF;
             color: #000;

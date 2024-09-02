@@ -4,6 +4,7 @@ header {
     width: 100%;
     height: 90px;
     background-color: transparent;
+    z-index: 100;
     transition: .3s;
 
     .header-inner {
