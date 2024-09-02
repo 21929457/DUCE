@@ -9,7 +9,7 @@ function Major() {
     <section>
       <div className="section-tit-wrap">
         <p className='section-tit'>MAJOR</p>
-        <p className="section-disc">공부하고 싶은 전공분야를 확인하세요 <br/> 대구대학교 컴퓨터정보공학부 컴퓨터공학과는 정보화 시대에 어울리는 다양한 분야를 학습합니다.</p>
+        <p className="section-disc">공부하고 싶은 전공분야를 확인하세요 <br/> 대구대학교 컴퓨터정보공학부 컴퓨터공학과는 정보화 시대에 어울리는 다양한 분야를 학습합니다</p>
       </div>
       <div className="major-inner">
         <div className="major web">
