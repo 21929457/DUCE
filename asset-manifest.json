@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/DUGraduate/static/css/main.af15e27b.css",
-    "main.js": "/DUGraduate/static/js/main.c85bc169.js",
+    "main.css": "/DUGraduate/static/css/main.570051fe.css",
+    "main.js": "/DUGraduate/static/js/main.3ea3df54.js",
     "static/js/453.22af7fa9.chunk.js": "/DUGraduate/static/js/453.22af7fa9.chunk.js",
+    "static/media/venture1.png": "/DUGraduate/static/media/venture1.226ad1ba6fe432aefff2.png",
     "static/media/information_secure.png": "/DUGraduate/static/media/information_secure.f28d4503663dfdc369be.png",
     "static/media/AI_developer.jpg": "/DUGraduate/static/media/AI_developer.8a13221040b2387eee56.jpg",
     "static/media/computer_manager.jpg": "/DUGraduate/static/media/computer_manager.106425b1e526583b065e.jpg",
     "static/media/embedded_developerjpg.jpg": "/DUGraduate/static/media/embedded_developerjpg.6294b681af24a23fba1d.jpg",
+    "static/media/venture3.jpg": "/DUGraduate/static/media/venture3.4a0ce43ff67a2dea9bd9.jpg",
     "static/media/game_developer.jpg": "/DUGraduate/static/media/game_developer.47450c6d10b4d87577b0.jpg",
     "static/media/ico_prev_btn.png": "/DUGraduate/static/media/ico_prev_btn.f1f27205a5fde59bff91.png",
     "static/media/ico_next_btn.png": "/DUGraduate/static/media/ico_next_btn.ed2fd4092c27f4220d8c.png",
     "static/media/software_developer.jpg": "/DUGraduate/static/media/software_developer.6762da3163e85e6cc0fc.jpg",
+    "static/media/venture2.jpg": "/DUGraduate/static/media/venture2.6ff04f841336e4459d3b.jpg",
     "static/media/logo.png": "/DUGraduate/static/media/logo.71e8f623acbd87b936e7.png",
     "index.html": "/DUGraduate/index.html",
-    "main.af15e27b.css.map": "/DUGraduate/static/css/main.af15e27b.css.map",
-    "main.c85bc169.js.map": "/DUGraduate/static/js/main.c85bc169.js.map",
+    "main.570051fe.css.map": "/DUGraduate/static/css/main.570051fe.css.map",
+    "main.3ea3df54.js.map": "/DUGraduate/static/js/main.3ea3df54.js.map",
     "453.22af7fa9.chunk.js.map": "/DUGraduate/static/js/453.22af7fa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af15e27b.css",
-    "static/js/main.c85bc169.js"
+    "static/css/main.570051fe.css",
+    "static/js/main.3ea3df54.js"
   ]
 }
