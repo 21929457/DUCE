@@ -1,4 +1,4 @@
-import '../css/venture.scss';
+import '../../css/venture.scss';
 
 function Venture() {
   return (

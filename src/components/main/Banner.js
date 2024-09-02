@@ -1,8 +1,8 @@
-import '../css/banner.scss';
+import '../../css/banner.scss';
 import $ from 'jquery';
 import anime from 'animejs/lib/anime.es.js';
 
-function Footer() {
+function Banner() {
     $(function () {
         const wrapperEl = document.querySelector('.wrapper');
     
@@ -63,5 +63,5 @@ function Footer() {
     );
   }
   
-  export default Footer;
+  export default Banner;
   

@@ -1,4 +1,4 @@
-import '../css/layout.scss';
+import '../../css/layout.scss';
 import Banner from './Banner';
 import Major from './Major';
 import Venture from './Venture';

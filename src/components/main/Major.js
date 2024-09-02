@@ -1,4 +1,4 @@
-import '../css/major.scss';
+import '../../css/major.scss';
 import $ from 'jquery';
 
 function Major() {

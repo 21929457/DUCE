@@ -1,4 +1,4 @@
-import '../css/location.scss'
+import '../../css/location.scss'
 
 function Location() {
     function handleMouseMove (e) {
