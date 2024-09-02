@@ -28,7 +28,10 @@ function Location() {
           </a>
           <div>
             <p className='section-tit'>Location</p>
-            <p className="section-disc">대구대학교 정보통신대학의 위치를 확인하세요.</p>
+            <p className="section-disc">경북 경산시 대구대로 201 정보통신대학 컴퓨터정보공학부 컴퓨터공학전공</p>
+            <div className="phonenum-wrap">
+              <i></i><p className="phonenum">053-850-6570</p>
+            </div>
           </div>
         </div>
         <div className="location-wrap">
