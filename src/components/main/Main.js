@@ -1,7 +1,6 @@
 import React, { useState , useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import $ from 'jquery';
 
 import '../../css/layout.scss';
 import Banner from './Banner';
