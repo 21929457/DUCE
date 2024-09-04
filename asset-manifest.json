@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DUGraduate/static/css/main.a47776a3.css",
-    "main.js": "/DUGraduate/static/js/main.7af5f257.js",
+    "main.css": "/DUGraduate/static/css/main.5aec2cb5.css",
+    "main.js": "/DUGraduate/static/js/main.919d272e.js",
     "static/js/453.22af7fa9.chunk.js": "/DUGraduate/static/js/453.22af7fa9.chunk.js",
     "static/media/venture1.png": "/DUGraduate/static/media/venture1.226ad1ba6fe432aefff2.png",
     "static/media/information_secure.png": "/DUGraduate/static/media/information_secure.f28d4503663dfdc369be.png",
@@ -16,13 +16,14 @@
     "static/media/software_developer.jpg": "/DUGraduate/static/media/software_developer.6762da3163e85e6cc0fc.jpg",
     "static/media/venture2.jpg": "/DUGraduate/static/media/venture2.6ff04f841336e4459d3b.jpg",
     "static/media/logo.png": "/DUGraduate/static/media/logo.71e8f623acbd87b936e7.png",
+    "static/media/ico-phone.png": "/DUGraduate/static/media/ico-phone.1ad7e5d5a80a2bc5ae0d.png",
     "index.html": "/DUGraduate/index.html",
-    "main.a47776a3.css.map": "/DUGraduate/static/css/main.a47776a3.css.map",
-    "main.7af5f257.js.map": "/DUGraduate/static/js/main.7af5f257.js.map",
+    "main.5aec2cb5.css.map": "/DUGraduate/static/css/main.5aec2cb5.css.map",
+    "main.919d272e.js.map": "/DUGraduate/static/js/main.919d272e.js.map",
     "453.22af7fa9.chunk.js.map": "/DUGraduate/static/js/453.22af7fa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a47776a3.css",
-    "static/js/main.7af5f257.js"
+    "static/css/main.5aec2cb5.css",
+    "static/js/main.919d272e.js"
   ]
 }
