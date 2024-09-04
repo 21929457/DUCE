@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useState , useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import $ from 'jquery';
 
 import '../../css/layout.scss';
 import Banner from './Banner';
@@ -12,7 +13,7 @@ function Main() {
 
   useEffect(() => {
     AOS.init();
-},[]);
+  },[]);
 
   return (
     <div className="container">

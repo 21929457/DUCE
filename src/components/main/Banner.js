@@ -46,7 +46,6 @@ function Banner() {
         $(".wrapper h1").fadeIn(1000);
         $(".wrapper .banner-btn-wrap").fadeIn(1000);
         $(".wrapper-inner p").fadeIn(1000);
-    
       });
     return (
         <div className="main">
