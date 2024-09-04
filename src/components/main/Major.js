@@ -1,17 +1,13 @@
 import '../../css/major.scss';
-import $ from 'jquery';
 
 function Major() {
-  $(function () {
-
-  });
   return (
     <section className="first">
-      <div className="section-tit-wrap">
+      <div className="section-tit-wrap" data-aos-anchor=".first" data-aos="fade-up" data-aos-duration="1000">
         <p className='section-tit'>MAJOR</p>
         <p className="section-disc">공부하고 싶은 전공분야를 확인하세요. <br/> 우리 학과에서는 정보화 시대에 필요한 다양한 분야를 학습합니다.</p>
       </div>
-      <div className="major-inner">
+      <div className="major-inner" data-aos-anchor=".first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
         <div className="major web">
           <p className="major-tit">웹 개발자</p>
           <p className="major-disc">웹 디자인 및 개발, 유지보수하는 기술을 다루는 개발자입니다.</p>
@@ -41,7 +37,7 @@ function Major() {
           <p className="major-disc">관리자 및 운영자에는 분야에 따라 다양한 직업이 있으며 다양한 직업에 따라 하는 직무, 요구기술 등이 모두 다릅니다.</p>
         </div>
       </div>
-      <div className="slide-btn-wrap">
+      <div className="slide-btn-wrap"data-aos-anchor=".first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
         <i className="slide-btn slide-prev"></i>
         <i className="slide-btn slide-next"></i>
       </div>

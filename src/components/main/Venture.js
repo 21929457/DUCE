@@ -5,15 +5,15 @@ function Venture() {
     <section className="section-venture">
       <div className="section-venture-txt">
         <div className="section-tit-wrap">
-          <p className='section-tit'>VENTURE ACADEMY</p>
-          <p className="section-disc">벤처 아카데미 사업으로 더 많은 기회를 제공합니다.</p>
+          <p className='section-tit' data-aos-anchor=".section-venture" data-aos="fade-up" data-aos-duration="1000">VENTURE ACADEMY</p>
+          <p className="section-disc" data-aos-anchor=".section-venture" data-aos="fade-up" data-aos-duration="1000">벤처 아카데미 사업으로 더 많은 기회를 제공합니다.</p>
         </div>
         <div className="venture-disc-wrap">
-          <div className="venture-disc1">
+          <div className="venture-disc1" data-aos-anchor=".section-venture" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <p className="venture-disc-tit">벤처 아카데미란?</p>
             <p className="venture-disc"> 교육부와 중소벤처기업부가 지원하는 취업연계 SW/콘텐츠 개발자 양성과정으로 <br/>실무 중심의 교육과정을 무료로 제공하는 사업입니다. 기업이 원하는 교육을 받은 <br/>SW중심대학 학생을 채용하고 인턴십 및 OJT를 진행하여 현장에 기반한 실무형 <br/>인재를 육성합니다.</p>
           </div>
-          <div className="venture-disc2">
+          <div className="venture-disc2" data-aos-anchor=".section-venture" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
             <p className="venture-disc-tit">우리 학과에서는</p>
             <div className="span-wrap">
               <span></span>
@@ -35,7 +35,7 @@ function Venture() {
           </div>
         </div>
       </div>
-      <div className="venture-img-wrap">
+      <div className="venture-img-wrap" data-aos-anchor=".section-venture" data-aos="fade-left" data-aos-duration="1000">
         <div className="venture-img-wrap1">
         <div className="venture-img venture-img1"></div>
         </div>
