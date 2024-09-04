@@ -1,4 +1,42 @@
 footer {
-    height: 400px;
+    height: 200px;
+    padding-top: 100px;
     background-color: #252525;
+    p {
+        text-align: center;
+        color: #A2A2A2;
+    }
+    .ft-text-wrap {
+        .ft-inner {
+            .logo {
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 32px;
+                    height: 32px;
+                }
+                p {
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 32px;
+                }
+            }
+            .fi-tit {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .ft-info {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+
+                p {
+                    text-align: left;
+                    span {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
 }
