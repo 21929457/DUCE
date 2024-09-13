@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/DUGraduate/static/css/main.c793d560.css",
-    "main.js": "/DUGraduate/static/js/main.904123c7.js",
+    "main.js": "/DUGraduate/static/js/main.7ee8a886.js",
     "static/js/453.22af7fa9.chunk.js": "/DUGraduate/static/js/453.22af7fa9.chunk.js",
     "static/media/banner.jpg": "/DUGraduate/static/media/banner.084e2d26a2690f8584f3.jpg",
     "index.html": "/DUGraduate/index.html",
     "main.c793d560.css.map": "/DUGraduate/static/css/main.c793d560.css.map",
-    "main.904123c7.js.map": "/DUGraduate/static/js/main.904123c7.js.map",
+    "main.7ee8a886.js.map": "/DUGraduate/static/js/main.7ee8a886.js.map",
     "453.22af7fa9.chunk.js.map": "/DUGraduate/static/js/453.22af7fa9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c793d560.css",
-    "static/js/main.904123c7.js"
+    "static/js/main.7ee8a886.js"
   ]
 }
