@@ -17,8 +17,8 @@ function Banner () {
         <div>
             <div className='banner'></div>
             <div className='inner'>
-                <div className='banner-contents'>
-                    <p className='banner-subTit' data-aos="fade-up" data-aos-duration="1000" >" 21세기 정보화 사회를 선도하라! "</p>
+                <div className='banner-contents' id="banner-anchor">
+                    <p className='banner-subTit' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#banner-anchor" >" 21세기 정보화 사회를 선도하라! "</p>
                     <div className='banner-tit-wrap'>
                         <p className='banner-tit'><TypeIt 
                         options={{
@@ -37,18 +37,18 @@ function Banner () {
                                 .move(7)
                                 .type("ersity ", {delay:250})
                                 .type("Computer ")
-                                .type(" Enginnering ")
+                                .type(" Engineering ")
                             return instance;
                         }}></TypeIt></p>
                     </div>
                 </div>
-                <div className='banner-btn'>
+                <div className='banner-btn' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#banner-anchor" data-aos-delay="700">
                     <a href='#'>
                         입학안내 바로가기
                         <FontAwesomeIcon icon={faArrowRight} />
                     </a>
                 </div>
-                <div className='scroll-wrap'>
+                <div className='scroll-wrap' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#banner-anchor">
                     <p className='scroll-txt'>Scroll Down</p>
                     <div className='scroll-bar first'>
                         <FontAwesomeIcon icon={faChevronDown} />
