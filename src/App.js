@@ -6,7 +6,7 @@ import Banner from './components/Banner';
 
 function App() {
   let options = {
-    anchors: ['sectionOne', 'sectionTwo', 'sectionThree' , 'sectionfourth'],
+    anchors: ['banner', 'sectionTwo', 'sectionThree' , 'sectionfourth'],
     navigation: false,
 };
   return (

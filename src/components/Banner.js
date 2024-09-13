@@ -1,5 +1,4 @@
 import '../css/component/banner.css';
-import logo from '../images/logo.png';
 import TypeIt from "typeit-react";
 import React, { useEffect } from "react";
 import AOS from "aos";
