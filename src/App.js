@@ -6,19 +6,20 @@ import Banner from './components/Banner';
 
 function App() {
   let options = {
-    anchors: ['banner', 'sectionTwo', 'sectionThree' , 'sectionfourth'],
+    anchors: ['banner', 'major', 'venture' , 'studnetActivities' , 'newsLetter'],
     navigation: false,
 };
   return (
     <div>
       <Header/>
-      <SectionsContainer {...options}>
+        <SectionsContainer {...options}>
         <Section>
           <Banner></Banner>
         </Section>
-        <Section>section2</Section>
-        <Section>section3</Section>
-        <Section>section4</Section>
+        <Section>major</Section>
+        <Section>venture</Section>
+        <Section>studentActivities</Section>
+        <Section>newsLetter</Section>
       </SectionsContainer>
     </div>
   );
