@@ -1,0 +1,7 @@
+body {background-color: white; font-family: "Pretendard"; color: white; padding: 0; margin: 0;}
+body > * {padding: 0; margin: 0;}
+ul , li {list-style: none;}
+a {text-decoration: none; color: white;}
+a:visited {color: inherit;}
+p {margin: 0;}
+.inner {position: relative; width: 1440px; height: 100vh;margin: 0 auto;}
