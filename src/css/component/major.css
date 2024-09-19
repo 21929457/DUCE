@@ -73,6 +73,7 @@
     word-break: keep-all;
     overflow: hidden;
 }
+
 .slideImg::after {
     content: '';
     position: absolute;
@@ -81,36 +82,65 @@
     top: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
+    background-position: center;
+    z-index: -1;
+    transition: .5s;
 }
+
+.slideTit {
+    font-size: 32px;
+    opacity: 0;
+    font-weight: 700;
+    transition: .5s;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.slideImg:hover::after {
+    opacity: .3;
+    transition: .5s;
+}
+
+.slideImg:hover .slideTit {
+    opacity: 1;
+}
+
 .slideImg.ai::after {
-    background-image: url();
+    background-image: url(../../images/m_AI.png);
 }
+
 .slideImg.game::after {
-    background-image: url();
+    background-image: url(../../images/m_game.jpg);
 }
+
 .slideImg.web::after {
-    background-image: url();
+    background-image: url(../../images/m_web.png);
 }
+
 .slideImg.iot::after {
-    background-image: url();
+    background-image: url(../../images/m_iot.jpg);
 }
+
 .slideImg.secure::after {
-    background-image: url();
+    background-image: url(../../images/m_secure.jpg);
 }
 
 .slideImg.soft::after {
-    background-image: url();
+    background-image: url(../../images/m_software.jpg);
 }
+
 .slideImg.net::after {
-    background-image: url();
+    background-image: url(../../images/m_network.jpg);
 }
+
 .slideImg.bigdata::after {
-    background-image: url();
+    background-image: url(../../images/m_bigdata.jpg);
 }
+
 .slideImg.robot::after {
-    background-image: url();
+    background-image: url(../../images/m_robot.png);
 }
-.slideImg.other::after {
-    background-image: url();
+
+.slideImg.virtual::after {
+    background-image: url(../../images/m_virtual.jpg);
 }

@@ -26,11 +26,11 @@ function Major() {
                         spaceBetween={60}
                         speed={3000}
                     >
-                        <SwiperSlide className="slideImg ai"></SwiperSlide>
-                        <SwiperSlide className="slideImg game"></SwiperSlide>
-                        <SwiperSlide className="slideImg web"></SwiperSlide>
-                        <SwiperSlide className="slideImg iot"></SwiperSlide>
-                        <SwiperSlide className="slideImg secure"></SwiperSlide>
+                        <SwiperSlide className="slideImg ai"><p className="slideTit">Artificial <br />Intelligence</p></SwiperSlide>
+                        <SwiperSlide className="slideImg game"><p className="slideTit">Game <br />Development</p></SwiperSlide>
+                        <SwiperSlide className="slideImg web"><p className="slideTit">Web</p></SwiperSlide>
+                        <SwiperSlide className="slideImg iot"><p className="slideTit">IoT</p></SwiperSlide>
+                        <SwiperSlide className="slideImg secure"><p className="slideTit">Security Expert</p></SwiperSlide>
                     </Swiper>
                     <Swiper
                         className="mySwiper"
@@ -43,11 +43,11 @@ function Major() {
                         speed={3000}
                         centeredSlides={true}
                     >
-                        <SwiperSlide className="slideImg soft"></SwiperSlide>
-                        <SwiperSlide className="slideImg net"></SwiperSlide>
-                        <SwiperSlide className="slideImg bigdata"></SwiperSlide>
-                        <SwiperSlide className="slideImg robot"></SwiperSlide>
-                        <SwiperSlide className="slideImg other"></SwiperSlide>
+                        <SwiperSlide className="slideImg soft"><p className="slideTit">Software <br />Development</p></SwiperSlide>
+                        <SwiperSlide className="slideImg net"><p className="slideTit">Network</p></SwiperSlide>
+                        <SwiperSlide className="slideImg bigdata"><p className="slideTit">Big Data</p></SwiperSlide>
+                        <SwiperSlide className="slideImg robot"><p className="slideTit">Robot</p></SwiperSlide>
+                        <SwiperSlide className="slideImg virtual"><p className="slideTit">Virtual Reality</p></SwiperSlide>
                     </Swiper>
                 </div>
             </div>
