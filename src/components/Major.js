@@ -13,7 +13,7 @@ function Major() {
             <div className='inner'>
                 <div className='major-l'>
                     <p className='major-subTit'>나의 미래를 바꿀 여정의 시작</p>
-                    <p className='major-tit'>전공선택</p>
+                    <p className='major-tit'>" 전공선택 "</p>
                 </div>
                 <div className='major-r'>
                     <Swiper
@@ -26,26 +26,28 @@ function Major() {
                         spaceBetween={60}
                         speed={3000}
                     >
-                        <SwiperSlide><img src="../images/major_AI.jpg" /></SwiperSlide>
-                        <SwiperSlide></SwiperSlide>
-                        <SwiperSlide></SwiperSlide>
+                        <SwiperSlide className="slideImg ai"></SwiperSlide>
+                        <SwiperSlide className="slideImg game"></SwiperSlide>
+                        <SwiperSlide className="slideImg web"></SwiperSlide>
+                        <SwiperSlide className="slideImg iot"></SwiperSlide>
+                        <SwiperSlide className="slideImg secure"></SwiperSlide>
                     </Swiper>
                     <Swiper
                         className="mySwiper"
                         direction={'vertical'}
-                        autoplay={{ delay: 0, disableOnInteraction: false, loop: true }}
-                        modules={{ Autoplay }}
+                        autoplay={{ delay: 0 }}
                         loop={true}
+                        modules={{ Autoplay }}
                         slidesPerView={2}
-                        centeredSlides={true}
                         spaceBetween={60}
                         speed={3000}
+                        centeredSlides={true}
                     >
-                        <SwiperSlide></SwiperSlide>
-                        <SwiperSlide></SwiperSlide>
-                        <SwiperSlide></SwiperSlide>
-                        <SwiperSlide></SwiperSlide>
-                        <SwiperSlide></SwiperSlide>
+                        <SwiperSlide className="slideImg soft"></SwiperSlide>
+                        <SwiperSlide className="slideImg net"></SwiperSlide>
+                        <SwiperSlide className="slideImg bigdata"></SwiperSlide>
+                        <SwiperSlide className="slideImg robot"></SwiperSlide>
+                        <SwiperSlide className="slideImg other"></SwiperSlide>
                     </Swiper>
                 </div>
             </div>

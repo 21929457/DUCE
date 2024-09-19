@@ -9,7 +9,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(../../images/major.jpg);
+    background-image: url(../../images/major_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     top: 0;
@@ -64,7 +64,6 @@
 }
 
 .swiper-slide {
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,9 +71,46 @@
     cursor: grab;
     font-size: 28px;
     word-break: keep-all;
+    overflow: hidden;
 }
-
-.swiper-slide img {
+.slideImg::after {
+    content: '';
+    position: absolute;
     width: 100%;
     height: 100%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.slideImg.ai::after {
+    background-image: url();
+}
+.slideImg.game::after {
+    background-image: url();
+}
+.slideImg.web::after {
+    background-image: url();
+}
+.slideImg.iot::after {
+    background-image: url();
+}
+.slideImg.secure::after {
+    background-image: url();
+}
+
+.slideImg.soft::after {
+    background-image: url();
+}
+.slideImg.net::after {
+    background-image: url();
+}
+.slideImg.bigdata::after {
+    background-image: url();
+}
+.slideImg.robot::after {
+    background-image: url();
+}
+.slideImg.other::after {
+    background-image: url();
 }
