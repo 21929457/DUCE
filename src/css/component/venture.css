@@ -1,0 +1,92 @@
+.venture-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/venture_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.venture-wrap::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: .3;
+}
+.venture-txt {
+    position: absolute;
+    z-index: 30;
+    text-align: center;
+    top: calc(50% - 200px);
+    left: calc(50% - 143px);
+}
+.venture-txt p:first-child {
+    font-size: 32px;
+    font-weight: 600;
+}
+.venture-txt p:last-child {
+    font-size: 54px;
+    font-weight: 700;
+}
+.venture-box-wrap {
+    display: flex;
+    height: 100%;
+    word-break: keep-all;
+}
+.venture-box {
+    display: flex;
+    position: relative;
+    width: 33.33333%;
+    height: 100%;
+    z-index: 20;
+    padding: 0 30px;
+    border-right: 1px solid white;
+}
+.venture-box:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    background-color: black;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: .5s;
+}
+.venture-box:last-child{
+    border-right: unset;
+}
+.venture-txtBox {
+    position: relative;
+    z-index: 30;
+}
+.venture-txtBox {
+    margin-top: 100%;
+    margin-bottom: auto;
+}
+.venture-boxTit {
+    font-size: 42px;
+    font-weight: 700;
+}
+.venture-discTit {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(-48px);
+    transition: .5s;
+}
+.venture-box:hover .venture-txtBox .venture-discTit {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: .5s;
+}
+.venture-box:hover::after {
+    opacity: .5;
+    transition: .5s;
+}
