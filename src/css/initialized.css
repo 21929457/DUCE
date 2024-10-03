@@ -35,3 +35,27 @@ p {
     height: 100vh;
     margin: 0 auto;
 }
+.Navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a.Navigation-Anchor::after {
+    font-size: 14px;
+    font-weight: 600;
+}
+a.Navigation-Anchor[href='#banner']::after {
+    content: '소개';
+}
+a.Navigation-Anchor[href='#major']::after {
+    content: '전공';
+}
+a.Navigation-Anchor[href='#venture']::after {
+    content: '벤처';
+}
+a.Navigation-Anchor[href='#studnetActivities']::after {
+    content: '학생활동';
+}
+a.Navigation-Anchor[href='#newsLetter']::after {
+    content: 'NewsLetter';
+}

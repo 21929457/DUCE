@@ -1,4 +1,5 @@
 import React from "react";
+import $ from 'jquery';
 import './css/initialized.css';
 import {SectionsContainer, Section} from 'react-fullpage';
 import Header from './components/Header';
@@ -9,8 +10,11 @@ import Venture from "./components/venture";
 function App() {
   let options = {
     anchors: ['banner', 'major', 'venture' , 'studnetActivities' , 'newsLetter'],
-    navigation: false,
-};
+    navigation: true,
+  };
+
+  $(".Navigation-Anchor").css("background-color" , "unset");
+  $(".Navigation-Anchor.active").css("transform" , "scale(1.5)");
   return (
     <div>
       <Header/>
