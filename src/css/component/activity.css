@@ -1,0 +1,26 @@
+.section-bg {
+    width: 100%;
+    height: 100%;
+    background-color: black;   
+}
+.section-bg .inner {display: flex; flex-direction: column; justify-content: center;}
+.board-wrap {display: flex; gap: 80px;}
+.board-wrap .board {width: 50%;}
+.activity-tit {text-align: center; margin-bottom: 80px; font-size: 44px; line-height: 64px; font-weight: 700;}
+.board-wrap .board .tit {font-size: 24px; font-weight: 500; line-height: 48px; margin-bottom: 20px;}
+.board-wrap .board ul > li {padding: 25px; border-bottom: 1px solid white; cursor: pointer; transition: .5s;}
+.board-wrap .board ul > li:nth-child(1) {border-top: 1px solid white;}
+.board-wrap .board ul > li span {display: inline-block; min-width: 17px; margin-right: 15px;}
+.board-wrap .board ul > li .board-tit {flex-grow: 2; max-width: 352px;}
+.board-wrap .board ul > li .part {flex-grow: 1;}
+.board-wrap .board ul > li i {display: inline-block; width: 18px; height: 18px; background-image: url(../../images/ico-add.svg); background-repeat: no-repeat; background-size: cover;}
+.board-wrap .board.year ul > li .tit-wrap {justify-content: space-between;}
+.board-wrap .board ul > li span , .board-wrap .board ul > li p {font-size: 18px; line-height: 18px;}
+.board-wrap .board ul > li:hover {background-color: #222;}
+.board-wrap .board ul > li .tit-wrap {display: flex; align-items: center;}
+.board-wrap .board.year ul > li .disc-wrap {margin-top: 10px;}
+.board-wrap .board.year ul > li .disc-wrap .dev-name {margin-top: 10px;}
+.board-wrap .board.year ul > li .disc-wrap p {font-size: 14px;}
+.board-wrap .board.year ul > li .disc-wrap .premier-tit span {font-weight: 700; font-size: 14px; margin-right: 10px;}
+.board-wrap .board.year ul > li .disc{display: none;}
+.board-wrap .board.year ul > li.open .disc {display: block;}
