@@ -84,6 +84,7 @@
     background-size: cover;
     background-position: center;
     z-index: -1;
+    opacity: .5;
     transition: .5s;
 }
 
@@ -94,10 +95,12 @@
     transition: .5s;
     letter-spacing: 0.2px;
     text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    
 }
 
 .slideImg:hover::after {
-    opacity: .3;
+    opacity: 1;
     transition: .5s;
 }
 

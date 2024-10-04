@@ -1,5 +1,4 @@
 import React from "react";
-import $ from 'jquery';
 import './css/initialized.css';
 import {SectionsContainer, Section} from 'react-fullpage';
 import Header from './components/Header';
@@ -12,9 +11,6 @@ function App() {
     anchors: ['banner', 'major', 'venture' , 'studnetActivities' , 'newsLetter'],
     navigation: true,
   };
-
-  $(".Navigation-Anchor").css("background-color" , "unset");
-  $(".Navigation-Anchor.active").css("transform" , "scale(1.5)");
   return (
     <div>
       <Header/>
