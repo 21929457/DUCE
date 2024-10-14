@@ -18,14 +18,19 @@
 
 .major-wrapper .inner {
     display: flex;
+    gap: auto;
 }
 
 .major-l,
 .major-r {
-    width: 50%;
     height: 100%;
 }
-
+.major-l {
+    width: 30%;
+}
+.major-r {
+    width: 70%;
+}
 .major-l {
     display: flex;
     flex-direction: column;
@@ -41,7 +46,7 @@
 }
 
 .major-l .major-tit {
-    font-size: 68px;
+    font-size: 54px;
     line-height: 68px;
     font-weight: 600;
 }
@@ -55,7 +60,6 @@
 .major-r .swiper {
     width: 350px;
     height: 100%;
-    padding-right: 60px;
     margin-top: 150px;
 }
 

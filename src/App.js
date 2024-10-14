@@ -6,11 +6,11 @@ import Banner from './components/Banner';
 import Major from './components/Major';
 import Venture from "./components/venture";
 import Activity from "./components/Activity";
-import $ from 'jquery';
+import News from "./components/New";
 
 function App() {
   let options = {
-    anchors: ['banner', 'major', 'venture' , 'studnetActivities' , 'newsLetter'],
+    anchors: ['banner', 'major', 'venture' , 'studnetActivities' , 'newsLetter' ,],
     navigation: true,
   };
 
@@ -22,7 +22,7 @@ function App() {
           <Section><Major/></Section>
           <Section><Venture/></Section>
           <Section><Activity/></Section>
-          <Section></Section>
+          <Section><News/></Section>
         </SectionsContainer>
     </div>
   );
