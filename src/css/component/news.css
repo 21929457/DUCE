@@ -1,1 +1,16 @@
-.news-wrap {width: 100%; height: 100%;}
+.section-bg.news {background-image: url(../../images/newsLetter_bg.jpg); position:relative; z-index: -10;}
+.news::after {content: ''; width: 100%; height: 100%; position: absolute; top: 0; z-index: -5; background-color: black; opacity: .3;}
+.news-slide .swiper-wrapper {transition-timing-function: linear;}
+.newTit-wrap {margin-top: auto;}
+.newTit-wrap p {
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+.newTit-wrap p.newsTit {
+    font-family: "Romanesco", cursive;
+    font-size: 88px;
+    line-height: 88px;
+    font-weight: 500;
+}

@@ -6,11 +6,11 @@ import Banner from './components/Banner';
 import Major from './components/Major';
 import Venture from "./components/venture";
 import Activity from "./components/Activity";
-import News from "./components/New";
+import News from "./components/News";
 
 function App() {
   let options = {
-    anchors: ['banner', 'major', 'venture' , 'studnetActivities' , 'newsLetter' ,],
+    anchors: ['banner', 'major', 'venture' , 'studnetActivities' , 'newsLetter'],
     navigation: true,
   };
 
