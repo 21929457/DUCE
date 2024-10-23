@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DUGraduate/static/css/main.de061a7e.css",
-    "main.js": "/DUGraduate/static/js/main.c31416be.js",
+    "main.css": "/DUGraduate/static/css/main.8bfe9bf6.css",
+    "main.js": "/DUGraduate/static/js/main.9ee7a592.js",
     "static/js/453.22af7fa9.chunk.js": "/DUGraduate/static/js/453.22af7fa9.chunk.js",
     "static/media/m_robot.png": "/DUGraduate/static/media/m_robot.9694d1c25e26bbac3dd2.png",
     "static/media/m_AI.png": "/DUGraduate/static/media/m_AI.47d5ebcd58b0ad4e15da.png",
@@ -21,12 +21,12 @@
     "static/media/news1.jpg": "/DUGraduate/static/media/news1.68f15040769ef45e4374.jpg",
     "index.html": "/DUGraduate/index.html",
     "static/media/ico-add.svg": "/DUGraduate/static/media/ico-add.f29ad617d36abaeb6499.svg",
-    "main.de061a7e.css.map": "/DUGraduate/static/css/main.de061a7e.css.map",
-    "main.c31416be.js.map": "/DUGraduate/static/js/main.c31416be.js.map",
+    "main.8bfe9bf6.css.map": "/DUGraduate/static/css/main.8bfe9bf6.css.map",
+    "main.9ee7a592.js.map": "/DUGraduate/static/js/main.9ee7a592.js.map",
     "453.22af7fa9.chunk.js.map": "/DUGraduate/static/js/453.22af7fa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de061a7e.css",
-    "static/js/main.c31416be.js"
+    "static/css/main.8bfe9bf6.css",
+    "static/js/main.9ee7a592.js"
   ]
 }
