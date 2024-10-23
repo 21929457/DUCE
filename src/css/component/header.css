@@ -20,11 +20,7 @@ header nav a {
     font-weight: 500;
     letter-spacing: 1px;
 }
-header nav a:last-child {
-    font-family: "Romanesco", cursive;
-    font-weight: 400;
-    font-size: 26px;
-}
+
 header nav a::after , header nav a::before {
     content: '';
     position: absolute;

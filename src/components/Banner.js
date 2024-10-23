@@ -19,28 +19,26 @@ function Banner () {
             <div className='inner'>
                 <div className='banner-contents' id="banner-anchor">
                     <p className='banner-subTit' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#banner-anchor" >" 21세기 정보화 사회를 선도하라! "</p>
-                    <div className='banner-tit-wrap'>
-                        <p className='banner-tit'><TypeIt 
-                        options={{
-                            speed: 60,
-                            startDelay:1000,
-                            lifeLike: true,
-                            keyboard: true,
-                        }}
-                        getBeforeInit={(instance) => {
-                            instance
-                                .type("Deagu Univ")
-                                .pause(500)
-                                .move(-7, {delay:500})
-                                .delete(2, {delay:500})
-                                .type("ae", {delay:500})
-                                .move(7)
-                                .type("ersity ", {delay:250})
-                                .type("Computer ")
-                                .type(" Engineering ")
-                            return instance;
-                        }}></TypeIt></p>
-                    </div>
+                    <p className='banner-tit'><TypeIt 
+                    options={{
+                        speed: 60,
+                        startDelay:1000,
+                        lifeLike: true,
+                        keyboard: true,
+                    }}
+                    getBeforeInit={(instance) => {
+                        instance
+                            .type("Deagu Univ")
+                            .pause(500)
+                            .move(-7, {delay:500})
+                            .delete(2, {delay:500})
+                            .type("ae", {delay:500})
+                            .move(7)
+                            .type("ersity ", {delay:250})
+                            .type("Computer ")
+                            .type(" Engineering ")
+                        return instance;
+                    }}></TypeIt></p>
                 </div>
                 <div className='banner-btn' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#banner-anchor" data-aos-delay="700">
                     <a href='#'>

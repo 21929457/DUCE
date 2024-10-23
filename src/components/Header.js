@@ -8,7 +8,7 @@ function Header (){
                 <a href="#">입학안내</a>
                 <a href="#">공지사항</a>
                 <a href="#studnetActivities">학생활동</a>
-                <a href="#newsLetter">News Letter</a>
+                <a href="#newsLetter">뉴스레터</a>
             </nav>
         </header>
     )

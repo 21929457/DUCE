@@ -62,9 +62,5 @@ a.Navigation-Anchor[href='#studnetActivities']::after {
     content: '학생활동';
 }
 a.Navigation-Anchor[href='#newsLetter']::after {
-    content: 'NewsLetter';
-    font-family: "Romanesco", cursive;
-    letter-spacing: 1.5px;
-    font-size: 22px;
-    font-weight: 400;
+    content: '뉴스레터';
 }
