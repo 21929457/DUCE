@@ -63,4 +63,8 @@ a.Navigation-Anchor[href='#studnetActivities']::after {
 }
 a.Navigation-Anchor[href='#newsLetter']::after {
     content: 'NewsLetter';
+    font-family: "Romanesco", cursive;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    font-weight: 400;
 }

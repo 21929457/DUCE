@@ -11,20 +11,17 @@ function Major() {
     return (
         <div className='major-wrapper'>
             <div className='inner'>
-                <div className='major-l'>
-                    <p className='major-subTit'>미래를 바꿀 여정의 시작</p>
-                    <p className='major-tit'>Major</p>
-                </div>
+                <p className='major-tit'>A to Z</p>
                 <div className='major-r'>
                     <Swiper
                         className="mySwiper"
                         direction={'vertical'}
-                        autoplay={{ delay: 0 }}
+                        autoplay={{ delay: 0 , disableOnInteraction: false }}
                         loop={true}
                         modules={{ Autoplay }}
                         slidesPerView={2}
                         spaceBetween={60}
-                        speed={3000}
+                        speed={4000}
                     >
                         <SwiperSlide className="slideImg ai"><p className="slideTit">Artificial <br />Intelligence</p></SwiperSlide>
                         <SwiperSlide className="slideImg game"><p className="slideTit">Game <br />Development</p></SwiperSlide>
@@ -35,12 +32,12 @@ function Major() {
                     <Swiper
                         className="mySwiper"
                         direction={'vertical'}
-                        autoplay={{ delay: 0 }}
+                        autoplay={{ delay: 0 , disableOnInteraction: false }}
                         loop={true}
                         modules={{ Autoplay }}
                         slidesPerView={2}
                         spaceBetween={60}
-                        speed={3000}
+                        speed={4000}
                         centeredSlides={true}
                     >
                         <SwiperSlide className="slideImg soft"><p className="slideTit">Software <br />Development</p></SwiperSlide>
