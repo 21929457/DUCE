@@ -20,7 +20,7 @@ function News (){
                         loop={true}
                         modules={{ Autoplay }}
                         slidesPerView={4}
-                        spaceBetween={60}
+                        spaceBetween={48}
                         speed={5000}
                     >
                         <SwiperSlide>
