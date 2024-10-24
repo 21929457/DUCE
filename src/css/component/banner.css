@@ -15,25 +15,20 @@
     height: 100%;
     background-color: rgba(0, 0, 0, .4);
 }
-.banner-contents {
-    padding-top: 350px;
-}
 .banner-contents .banner-subTit {
     width: fit-content;
     margin: 0 auto;
+    margin-top: 200px;
     font-size: 32px;
     line-height: 32px;
     font-weight: 700;
     text-align: center;
 }
-.banner-contents .banner-logo {
-    width: 100px;
-    height: 100px;
-}
+.inner.banner-inner {display: flex; justify-content: center; flex-direction: column;}
 .banner-contents .banner-tit {
     font-family: "Fugaz One", sans-serif;
-    font-size: 3vw;
-    line-height: 3vw;
+    font-size: 64px;
+    line-height: 64px;
     width: fit-content;
     margin: 0 auto;
     margin-top: 15px;

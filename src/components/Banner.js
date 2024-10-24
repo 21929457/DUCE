@@ -16,10 +16,10 @@ function Banner () {
     return (
         <div>
             <div className='banner'></div>
-            <div className='inner'>
+            <div className='inner banner-inner'>
                 <div className='banner-contents' id="banner-anchor">
-                    <p className='banner-subTit' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#banner-anchor" >" 21세기 정보화 사회를 선도하라! "</p>
-                    <p className='banner-tit'><TypeIt 
+                    <p className='banner-subTit' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#banner-anchor">" 21세기 정보화 사회를 선도하라! "</p>
+                    <p className='banner-tit'><TypeIt
                     options={{
                         speed: 60,
                         startDelay:1000,
