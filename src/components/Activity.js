@@ -15,7 +15,8 @@ function Activity () {
     return (
         <div className='section-bg'>
             <div className='inner'>
-                <p className='activity-tit'>ACTIVITY</p>
+                <p className='activity-tit one'>STUDENT</p>
+                <p className='activity-tit two'>ACTIVITY</p>
                 <div className='board'>
                         <p className='tit'>동아리 활동</p>
                         <ul>
@@ -124,60 +125,6 @@ function Activity () {
                                         <p><span>03</span>한국산업정보학회 추계학술대회 우수논문상&#40;구두발표&#41;</p>
                                         <p className="workName">논문명 : 자율주행차 데이터 분석을 통한 사이버 공격 디지털 트윈 모델 연구</p>
                                         <p className="winner">조재한&#40;컴공'17&#41;, 박재민&#40;컴공'19&#41;, 이현우&#40;컴공'21&#41;, 김태협&#40;컴공'19&#41;, 김지연&#40;교신저자&#41;</p>
-                                    </div>
-                                </Typography>
-                                </AccordionDetails>
-                    </Accordion>
-                    <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} sx={{ boxShadow: 'none' }}>
-                                <AccordionSummary
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                                >
-                                <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                                    <div className='year-div'>2021년<i></i></div>
-                                </Typography>
-                                </AccordionSummary>
-                                <AccordionDetails>
-                                <Typography>
-                                    <div className='work-disc-wrap'>
-                                        <p><span>01</span>2021 대구·경북 스타트업 페스티벌 ⌜CultG-Star League⌟ 대상&#40;중소벤처기업부장관상&#41; 수상 </p>
-                                        <p className="winner">신용혁&#40;컴공'19&#41;</p>
-                                    </div>
-                                    <div className='work-disc-wrap'>
-                                        <p><span>02</span>2021년 모바일 앱/아이디어 공모전 장려상</p>
-                                        <p className="workName">작품명 : 리뷰토랑</p>
-                                        <p className="winner">이승욱, 김태성, 백대현, 우보원 &#40;컴공'16&#41;</p>
-                                    </div>
-                                    <div className='work-disc-wrap'>
-                                        <p><span>03</span>DU-Dream 창업아이디어 경진대회 최우수상</p>
-                                        <p className="workName">논문명 : 교수자와 학습자를 반영한 문제해결형 코딩테스트 플랫폼</p>
-                                        <p className="winner">이승욱&#40;컴공'16&#41;, 서보성&#40;컴공'19&#41;, 이진우&#40;컴공'19&#41;, 안건우&#40;컴공'18&#41;</p>
-                                    </div>
-                                </Typography>
-                                </AccordionDetails>
-                    </Accordion>
-                    <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')} sx={{ boxShadow: 'none' }}>
-                                <AccordionSummary
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                                >
-                                <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                                    <div className='year-div'>2020년<i></i></div>
-                                </Typography>
-                                </AccordionSummary>
-                                <AccordionDetails>
-                                <Typography>
-                                    <div className='work-disc-wrap'>
-                                        <p><span>01</span>2020학년도 대구대학교 학과역량평가에서 전체 85개 학과 가운데 컴퓨터공학전공이 1위를 차지 학과 역량평가 우수학과&#40;A등급&#41;에 수여되는 장학금을 10명의 학생들에게 지급</p>
-                                    </div>
-                                    <div className='work-disc-wrap'>
-                                        <p><span>02</span>컴퓨터공학전공 동문장학금 및 소속교수 매칭펀드장학금으로 7명의 학생들에게 특별장학금을 지급</p>
-                                    </div>
-                                    <div className='work-disc-wrap'>
-                                        <p><span>03</span> 2020년 영천시 전산직 공무원 선발시험에서 이동헌&#40;컴공‘15, ‘21졸업예정&#41; 학생이 최종합격</p>
-                                    </div>
-                                    <div className='work-disc-wrap'>
-                                        <p><span>04</span> 권필진&#40;컴공`12, 부산대대학원 `20졸업&#41; 학생이 안랩에 취업</p>
                                     </div>
                                 </Typography>
                                 </AccordionDetails>

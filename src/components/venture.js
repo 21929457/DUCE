@@ -3,10 +3,8 @@ import '../css/component/venture.css';
 function Venture () {
     return (
         <div className='venture-wrap'>
-            <div className='venture-txt'>
-                <p>다양한 기회를 제공하는 사업</p>
-                <p className='venture-tit'>Ventrue</p>
-            </div>
+            <p className='venture-tit'>VENTURE</p>
+            <p className='venture-tit two'>BUSINESS</p>
             <div className='venture-box-wrap'>
                 <div className='venture-box'>
                     <div className='venture-txtBox'>

@@ -1,7 +1,9 @@
 .section-bg {width: 100%; height: 100%; background-color: black;}
 .section-bg .inner {position: relative;}
-.board {width: 50%; position: absolute; top: calc(50% - 34px);}
-.activity-tit {position: absolute; left: -200px; top: calc(100% - 155px); text-align: center; font-size: 200px; line-height: 64px; font-weight: 700; opacity: .7;}
+.board {width: 50%; position: absolute; top: calc(50% - 150px); left: -20px;}
+.activity-tit {position: absolute; font-size: 200px; line-height: 64px; font-weight: 700; opacity: .2;}
+.activity-tit.one {left: -150px; top: calc(0% + 200px);}
+.activity-tit.two {right: -150px; bottom: calc(0% + 100px);}
 .board .tit {font-size: 24px; font-weight: 500; line-height: 48px; margin-bottom: 20px;}
 .board ul > li {padding: 25px; border-bottom: 1px solid white; cursor: pointer; transition: .5s;}
 .board ul > li:nth-child(1) {border-top: 1px solid white;}
@@ -12,15 +14,12 @@
 .board ul > li span , .board-wrap .board ul > li p {font-size: 18px; line-height: 18px;}
 .board ul > li:hover {background-color: #222;}
 .board ul > li .tit-wrap {display: flex; align-items: center;}
-.board.year {top: calc(50% - 379px); right: 0;}
+.board.year {top: calc(50% - 150px); right: -20px; left: auto;}
 .board.year ul > li .disc-wrap {margin-top: 10px;}
 .board.year ul > li .disc-wrap .dev-name {margin-top: 10px;}
 .board.year ul > li .disc-wrap p {font-size: 14px;}
 .board.year ul > li .tit-wrap {justify-content: space-between;}
 .board.year ul > li .disc-wrap .premier-tit span {font-weight: 700; font-size: 14px; margin-right: 10px;}
-
-
-
 .year-div {display: flex; justify-content: space-between; align-items: center;}
 .MuiPaper-root.MuiPaper-elevation {background-color: unset; color: #FFF; border-top: 1px solid #FFF; transition: .5s;}
 .MuiPaper-root:last-child {border-bottom: 1px solid #FFF;}
