@@ -9,11 +9,9 @@ function News (){
         <div className="news-wrap">
             <div className='section-bg news'></div>
             <div className="news-inner">
-                <div className="newTit-wrap">
-                    <p>뉴스에서 만난 컴퓨터공학과 이야기들</p>
-                    <p className="newsTit">News Letter</p>
-                </div>
                 <div className='news-slide'>
+                    <p className="newsTit">News Letter</p>
+                    <p className="newsDisc">뉴스에서 만난 컴퓨터공학과 이야기들</p>
                     <Swiper
                         className="mySwiper"
                         autoplay={{ delay: 0 }}
