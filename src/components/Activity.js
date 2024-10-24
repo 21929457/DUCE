@@ -50,8 +50,7 @@ function Activity () {
                                 id="panel1bh-header"
                                 >
                                 <Typography sx={{ width: '33%', flexShrink: 0}}>
-                                    2024년
-                                    <i></i>
+                                    <div className='year-div'>2024년<i></i></div>
                                 </Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
@@ -80,8 +79,7 @@ function Activity () {
                                 id="panel2bh-header"
                                 >
                                 <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                                    2023년
-                                    <i></i>
+                                    <div className='year-div'>2023년<i></i></div>
                                 </Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
@@ -107,8 +105,7 @@ function Activity () {
                                 id="panel3bh-header"
                                 >
                                 <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                                    2022년
-                                    <i></i>
+                                    <div className='year-div'>2022년<i></i></div>
                                 </Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
@@ -137,8 +134,7 @@ function Activity () {
                                 id="panel4bh-header"
                                 >
                                 <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                                    2021년
-                                    <i></i>
+                                    <div className='year-div'>2021년<i></i></div>
                                 </Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
@@ -166,8 +162,7 @@ function Activity () {
                                 id="panel4bh-header"
                                 >
                                 <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                                    2020년
-                                    <i></i>
+                                    <div className='year-div'>2020년<i></i></div>
                                 </Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>

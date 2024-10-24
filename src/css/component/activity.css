@@ -18,18 +18,24 @@
 .board.year ul > li .disc-wrap p {font-size: 14px;}
 .board.year ul > li .tit-wrap {justify-content: space-between;}
 .board.year ul > li .disc-wrap .premier-tit span {font-weight: 700; font-size: 14px; margin-right: 10px;}
-.css-nt424e-MuiPaper-root-MuiAccordion-root {background-color: unset !important; color: #FFF !important; transition: .5s !important;}
-.css-nt424e-MuiPaper-root-MuiAccordion-root:hover {background-color: #222 !important;}
-.css-nt424e-MuiPaper-root-MuiAccordion-root:last-of-type {border-bottom: 1px solid #FFF !important;}
-.css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root {min-height: unset !important; padding: 25px !important; border-top: 1px solid #FFF !important; max-height: 70px;}
+
+
+
+.year-div {display: flex; justify-content: space-between; align-items: center;}
+.MuiPaper-root.MuiPaper-elevation {background-color: unset; color: #FFF; border-top: 1px solid #FFF; transition: .5s;}
+.MuiPaper-root:last-child {border-bottom: 1px solid #FFF;}
+.MuiPaper-root:hover {background-color: #222;}
 .work-disc-wrap {padding-left: 10px; margin-bottom: 10px;}
 .work-disc-wrap span {font-size: 18px; font-weight: 700; margin-right: 15px;}
 .work-disc-wrap:last-child{margin-bottom: 0;}
 .work-disc-wrap p:first-child {font-size: 14px; font-weight: 700; margin-bottom: 5px;}
 .work-disc-wrap p {font-size: 12px;}
-.css-eqpfi5-MuiAccordionSummary-content {margin: 0 !important;}
-.MuiTypography-root.MuiTypography-body1.css-1cj482v-MuiTypography-root {display: flex; width: 100%; align-items: center; justify-content: space-between; font-size: 18px; line-height: 18px;}
-.MuiTypography-root.MuiTypography-body1.css-1cj482v-MuiTypography-root i {display: inline-block; width: 18px; height: 18px; background-image: url(../../images/ico-add.svg); background-repeat: no-repeat; background-size: cover;}
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.Mui-expanded.MuiAccordion-gutters.css-nt424e-MuiPaper-root-MuiAccordion-root {--Paper-shadow: }
-.css-75i5dt-MuiPaper-root-MuiAccordion-root {background-color: unset !important; color: #FFF !important;}
-.MuiPaper-root:last-child {border-bottom: 1px solid #FFF;}
+.work-disc-wrap {padding-left: 10px; margin-bottom: 10px;}
+.work-disc-wrap span {font-size: 18px; font-weight: 700; margin-right: 15px;}
+.work-disc-wrap:last-child{margin-bottom: 0;}
+.work-disc-wrap p:first-child {font-size: 14px; font-weight: 700; margin-bottom: 5px;}
+.work-disc-wrap p {font-size: 12px;}
+.MuiAccordionSummary-content.MuiAccordionSummary-contentGutters {margin: 0; padding: 25px;}
+.MuiButtonBase-root.MuiAccordionSummary-root {min-height: unset; padding: 0;}
+.MuiTypography-root.MuiTypography-body1{display: flex; width: 100%; flex-direction: column; font-size: 18px; line-height: 18px;}
+.MuiTypography-root.MuiTypography-body1 i {display: inline-block; width: 18px; height: 18px; background-image: url(../../images/ico-add.svg); background-repeat: no-repeat; background-size: cover;}
