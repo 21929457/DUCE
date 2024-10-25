@@ -7,11 +7,10 @@ import '../css/component/major.css';
 
 function Major() {
     SwiperCore.use([Autoplay]);
-
     return (
         <div className='major-wrapper'>
             <div className='inner'>
-                <p className='major-tit'>A to Z</p>
+                <p className='major-tit' data-scroll>A to Z</p>
                 <div className='major-r'>
                     <Swiper
                         className="mySwiper"
