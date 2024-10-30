@@ -41,7 +41,7 @@ function Banner () {
                     }}></TypeIt></p>
                 </div>
                 <div className='banner-btn' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#banner-anchor" data-aos-delay="700">
-                    <a href='#'>
+                    <a href='https://ipsi.daegu.ac.kr/intro.html'>
                         입학안내 바로가기
                         <FontAwesomeIcon icon={faArrowRight} />
                     </a>
